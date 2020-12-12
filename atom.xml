@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-12-05T15:17:23.906Z</updated>
+  <updated>2020-12-12T14:25:58.321Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数论学习笔记(一)</title>
+    <link href="http://example.com/2020/12/12/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E4%B8%80/"/>
+    <id>http://example.com/2020/12/12/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E4%B8%80/</id>
+    <published>2020-12-12T13:43:43.000Z</published>
+    <updated>2020-12-12T14:25:58.321Z</updated>
+    
+    <content type="html"><![CDATA[<center>整数的惟一分解定理</center><a id="more"></a><h2 id="整除性"><a href="#整除性" class="headerlink" title="整除性"></a>整除性</h2><p>一些显然的性质：</p><ol><li>如果 $b|a,c|b$ ，则 $c|a$ .</li><li>如果 $b|a$ ，则 $cb|ca$ .</li><li>如果 $c|a,c|b$ ，则对于任意整数 $m,n$ ，有 $c|ma+nb$ .</li><li>如果 $b|a$ 且 $a \not= 0$ ，则 $|b|\leq|a|$ .</li><li>如果 $cb|ca$ ，则 $b|a$ .</li><li>如果 $b|a,a\not= 0$ ，则 $\frac{a}{b}|a$ .</li></ol><p>$\Large\rm{Theorem \ 1.1}$</p><blockquote><p>$a, b$ 是整数且 $b &gt; 0$ ，则存在两个惟一的整数 $q$ 和 $r$ 使得 $a=bq+r,0\le r&lt;b$ 成立.</p></blockquote><p>式中的 $q$ 叫做 $a$ 被 $b$ 除的不完全商，$r$ 就是余数，也叫作非负最小剩余，记作 $\langle a\rangle _b=r$ . 在不引起混淆的情况下 $b$ 通常略去.</p><p>$\Large\rm{Theorem \ 1.2}$</p><blockquote><p>对于整数 $a_1,a_2,b(b&gt;0)$ 常有</p><p>$$\begin{eqnarray}\langle a_1+a_2\rang=\lang \lang a_1\rang + \lang a_2\rang\rang, \ \lang a_1-a_2\rang =\lang \lang a_1\rang - \lang a_2\rang\rang, \ \lang a_1a_2\rang =\lang \lang a_1\rang  \lang a_2\rang\rang.\end{eqnarray}$$</p></blockquote><h2 id="最大公因数与辗转相除法"><a href="#最大公因数与辗转相除法" class="headerlink" title="最大公因数与辗转相除法"></a>最大公因数与辗转相除法</h2>]]></content>
+    
+    
+    <summary type="html">&lt;center&gt;整数的惟一分解定理&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="数论" scheme="http://example.com/categories/%E6%95%B0%E8%AE%BA/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Test</title>
